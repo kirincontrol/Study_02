@@ -1,11 +1,15 @@
 #include <stdio.h>
+#include "Util.h"
+
+
 
 int main()
 {
-	printf ("Hello World");
-}
+	int n = 0;
 
-//commit
-//push
-//pull
-//clone
+	scanf("%d", &n);
+	//CheckOdd(n);
+	printf("%d", CalculateOddSum(n));
+
+	return 0;
+}
